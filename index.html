@@ -56,26 +56,28 @@
     <li> there are more things, but that's for later.
   </ol>
 
- <head>
+<head>
 <style>
 table, th, td {
   border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+  text-align: left;
 }
 </style>
 </head>
 <body>
 
 
-<table style="width:100%">
+<table style="width:80%">
+<caption>table text.</caption>
   <tr>
-    <th>filler</th>
-    <th>text</th> 
-    <th>also filler text</th>
+    <th rowspan="2">filler</th>
+    <th colspan="2">text</th> 
   </tr>
   <tr>
     <td>abcd</td>
     <td>efgh</td>
-    <td>ijkl</td>
   </tr>
   <tr>
     <td>mnop</td>
